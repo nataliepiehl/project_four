@@ -13,6 +13,9 @@ INQ_J <- nhanes('INQ_J')
 BPX_J <- nhanes('BPX_J')
 BMX_J <- nhanes('BMX_J')
 ALQ_J <- nhanes('ALQ_J')
+PAQ_J <- nhanes('PAQ_J')
+WHQ_J <- nhanes('WHQ_J')
+DBQ_J <- nhanes('DBQ_J')
 
 # Write out results
 write.csv(DIQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/DIQ_J_2017-18.csv")
@@ -22,6 +25,9 @@ write.csv(INQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resour
 write.csv(BPX_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/BPX_J_2017-18.csv")
 write.csv(BMX_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/BMX_J_2017-18.csv")
 write.csv(ALQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/ALQ_J_2017-18.csv")
+write.csv(PAQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/PAQ_J_2017-18.csv")
+write.csv(WHQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/WHQ_J_2017-18.csv")
+write.csv(DBQ_J, file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/DBQ_J_2017-18.csv")
 write.csv(questionnaire_table_names_17_18,
           file = "~/OneDrive/Projects/coding_bootcamp/project_four/resources/questionnaire_table_names_2017-18.csv")
 write.csv(exam_table_names_17_18,
